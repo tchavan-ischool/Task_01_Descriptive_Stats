@@ -4,7 +4,27 @@
 This project examines a provided 2024 U.S. presidential election Facebook advertising dataset with two independent descriptive-statistics implementations: Python's standard library and Pandas. Both analyze every column, report missingness, and compute numerical or categorical summaries under matching rules. A third script verifies agreement.
 
 ## Dataset
-The research-program dataset is **2024 Facebook Political Ads**, distributed via the course's Google Drive materials. Download the original CSV from the link in the assignment/course materials and place it at `data/fb_ads_president_scored_anon.csv` (create the `data/` directory). **The dataset is not included in this repository.** Replace this sentence with the actual course-authorized source URL if available. This file contains 246,745 records and 40 fields in the copy analyzed for this report. This Task 1 file must not be confused with any later task's file.
+
+Dataset: 2024 Facebook Political Ads
+
+Source: [Google Drive dataset](https://drive.google.com/file/d/1gvtvX8fATFrrzraPmTSf205U8u3JExUR/view?usp=sharing)
+
+The dataset contains Facebook political advertising records
+associated with the 2024 U.S. presidential election.
+
+The CSV file is intentionally excluded from this repository,
+as required by the research assignment.
+
+### Download Instructions
+
+1. Open the Google Drive source link above.
+2. Download the original CSV dataset.
+3. Create a folder named `data` inside this project.
+4. Place the CSV file inside that folder.
+5. Run the Python scripts using the downloaded dataset.
+
+The analyzed copy was named `fb_ads_president_scored_anon.csv`
+and contained 246,745 rows and 40 columns.
 
 ## Setup and execution
 Requires Python 3.10+.
