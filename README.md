@@ -37,4 +37,4 @@ See [FINDINGS.md](FINDINGS.md) for an evidence-based interpretation and importan
 See [COMPARISON.md](COMPARISON.md) for the tradeoffs and the cross-implementation verification procedure.
 
 ## Reproducibility and ethics
-Do not upload the CSV, which is excluded by `.gitignore`. The records describe advertising activity; descriptive statistics alone do not establish causation, persuasion effects, or audience attitudes. Some flags and classifications are supplied by the dataset and should not be assumed error-free.
+The records describe advertising activity; descriptive statistics alone do not establish causation, persuasion effects, or audience attitudes. Some flags and classifications are supplied by the dataset and should not be assumed error-free.
