@@ -1,0 +1,6 @@
+# Do not commit research data
+*.csv
+__pycache__/
+.venv/
+outputs/
+.ipynb_checkpoints/
