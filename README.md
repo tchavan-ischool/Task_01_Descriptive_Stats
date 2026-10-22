@@ -34,7 +34,8 @@ python -m venv .venv
 # On Windows: .venv\Scripts\activate
 # On macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
-mkdir -p outputs
+mkdir data
+mkdir outputs
 python pure_python_stats.py data/fb_ads_president_scored_anon.csv --output outputs/pure.json
 python pandas_stats.py data/fb_ads_president_scored_anon.csv --output outputs/pandas.json
 python verify_results.py outputs/pure.json outputs/pandas.json
